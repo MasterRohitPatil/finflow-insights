@@ -1,5 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Upload, Menu } from "lucide-react";
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
