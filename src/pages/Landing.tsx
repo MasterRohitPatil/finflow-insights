@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { TrendingUp, BarChart3, Shield, Lightbulb, ArrowRight, CheckCircle2 } from "lucide-react";
 
 const features = [
@@ -41,7 +42,8 @@ const Landing = () => {
             </div>
             <span className="text-lg font-bold text-foreground tracking-tight">FinSight</span>
           </Link>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
             <Button variant="ghost" asChild>
               <Link to="/login">Sign In</Link>
             </Button>
